@@ -11,10 +11,10 @@ namespace testConsoleApp
     {
         static void Main(string[] args)
         {
-            double numberToOperations = 5.8;
+            double numberToOperations = -5.8;
             int moduloDivide = 105;
             int moduloDivideBy = 9;
-            int howLongPermutation = 3;
+            int howLongPermutation = 30;
             int howManyPrimes = 10;
             var primes = Primes.GeneratePrimes(howManyPrimes);
             Console.WriteLine("Start");
